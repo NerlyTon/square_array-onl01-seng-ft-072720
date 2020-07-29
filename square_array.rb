@@ -2,6 +2,6 @@ require "pry"
 
 def square_array(array)
   array.each do |numbers|
-    puts #{numbers.exp(array)}
+    puts array**#{numbers}
   end
 end
